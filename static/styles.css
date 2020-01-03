@@ -30,26 +30,33 @@
 
 }
 
-.nav a {
-    text-decoration: none;
-}
-
 .nav li:first-child {
     margin: 0 10px 0 5px;
 }
 
-.nav li:last-child {
-    margin: 0 5px 0 10px;
-    flex: 0 0 auto;
-    justify-self: end;
+/*.nav li:last-child {*/
+/*    margin: 0 5px 0 10px;*/
+/*    flex: 0 0 auto;*/
+/*    justify-self: end;*/
 
-}
+/*}*/
 
 .nav a {
     text-decoration: none;
     padding: 0 10px;
     color: rgba(214, 214, 214, 0.73);
     font-size: 2em;
+}
+
+.nav .btn {
+    text-decoration: none;
+    font-size: 1.4em;
+    color: black;
+}
+
+.btn-green {
+    background: #ffffff;
+    border: 2px solid green;
 }
 
 .nav a:hover {
@@ -72,3 +79,4 @@
 .jumbotron p {
     margin: 10px 5px;
 }
+
